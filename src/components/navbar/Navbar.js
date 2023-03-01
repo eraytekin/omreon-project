@@ -1,12 +1,14 @@
 import React from 'react'
+
 import "./navbar.css";
+import {FaAlignJustify, FaTimes} from 'react-icons/fa';
 
 function Navbar() {
   return (
     <div>
         <div className="navbar-container">
           <div className="navbar-left-side">
-            <div className="hamburger-button"><button>H. But.</button></div>
+            <div className="hamburger-button"><FaAlignJustify style={{color: 'black', fontSize: '25px' }}/></div>
           </div>
           <div className="navbar-right-side">
             <ul className="menu">
@@ -15,8 +17,8 @@ function Navbar() {
               <li><a href="#">Teknolojiler</a></li>
               <li><a href="#">İnsan Kaynakları</a></li>
               <li><a href="#">Kurumsal</a></li>
-              <li><a href="#">İletişim</a></li>
             </ul>
+            <button className="contact-button">İletişim</button>
           </div>
         </div>
     </div>
