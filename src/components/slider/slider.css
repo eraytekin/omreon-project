@@ -1,8 +1,146 @@
+/* parent container */
 .slider-container{
     width:100%;
     height:754px;
     background-image: url("../../photos/background.png");
     background-size:cover;
     background-repeat: no-repeat;
-    /* menu iconun görsele denk gelme durumunu ayarla */
+}
+/* left ve right side'ı kapsayan container */
+.slider-inner{
+    width:100%;
+    height: calc(754px - 80px);
+    display: flex;
+    flex-direction: row;
+    /* background-color: blue; */
+}
+.slider-inner-left-side{
+    width:80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* background-color: yellow; */
+}
+/* left side container içerisinde bulunan inner container */
+.left-side-inner{
+    width: 75%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top:120px;
+    /* background-color: gray; */
+}
+/* left side header */
+.slider-header{
+    font-size:64px;
+    font-weight: 800;
+    color: #000000;
+}
+/* left side content */
+.slider-content{
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    color:#000000;
+}
+/* left side newsletter */
+.subscribe-newsletter{
+    width: 502px;
+    height: 73px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    padding:10px;
+    padding-left:30px;
+    background: #FFFFFF;
+    overflow: hidden;
+}
+/* left side input */
+.subscribe-newsletter > input{
+    height:80px;
+    width: 300px;
+    font-size:16px;
+    font-family: "Manrope";
+    letter-spacing: 0.2px;
+    color:rgba(0,0,0,.4);
+    outline: none;
+    border: none;
+}
+/* left side button */
+.sign-up-newsletter{
+    width: 136px;
+    height: 61px;
+    letter-spacing: 0.2px;
+    border-radius: 8px;
+    margin-top:8px;
+    font-size:16px;
+    font-weight: 700;
+    background: #F84646;
+    color:#FFFFFF;
+    border:none;
+    outline: none;
+    font-family: "Manrope";
+    cursor: pointer;
+}
+
+/* right empty area */
+.slider-inner-right-side{
+    width:20%;
+    height: 100%;
+    /* background-color: pink; */
+}
+
+@media screen and (max-width:1024px){
+    .slider-container{
+        background-image: none;
+    }
+    .subscribe-newsletter{
+        width: 400px;
+        height: 63px;
+    }
+    .left-side-inner{
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width:600px){
+    .slider-container{
+        /* opacity: .5; */ /*opactiy durumunu hallet */
+        background-image: url("../../photos/background.png");
+        background-position: right;
+    }
+    .slider-inner-left-side{
+        width:100%;
+    }
+    .slider-inner-right-side{
+        display: none;
+    }
+    .left-side-inner{
+        margin-top: 0px;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    .subscribe-newsletter{
+        width:300px;
+        padding:15px;
+    }
+    .sign-up-newsletter{
+        margin-top: 0px;
+    }
+    
+}
+@media screen and (max-width:300px){
+    .subscribe-newsletter{
+        width:200px;
+        padding:10px;
+    }
+    .subscribe-newsletter > input{
+        width:60px;
+    }
+    .sign-up-newsletter{
+        width:80px;
+    }
 }

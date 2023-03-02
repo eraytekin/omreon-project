@@ -55,7 +55,7 @@ ul > li > a{
 }
 
 /* Responsive Area */
-@media screen and (max-width:915px){
+@media screen and (max-width:1024px){
     .navbar-left-side{
         display: none;
     }
