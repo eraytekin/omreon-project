@@ -1,0 +1,8 @@
+.slider-container{
+    width:100%;
+    height:754px;
+    background-image: url("../../photos/background.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    /* menu iconun görsele denk gelme durumunu ayarla */
+}

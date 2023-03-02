@@ -8,7 +8,7 @@ function Navbar() {
     <div>
         <div className="navbar-container">
           <div className="navbar-left-side">
-            <div className="hamburger-button"><FaAlignJustify style={{color: 'black', fontSize: '25px' }}/></div>
+            <div className="hamburger-button"><FaAlignJustify style={{color: '#000000', fontSize: '25px' }}/></div>
           </div>
           <div className="navbar-right-side">
             <ul className="menu">
