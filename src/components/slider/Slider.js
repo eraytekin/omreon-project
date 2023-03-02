@@ -7,7 +7,9 @@ function slider() {
     <div>
         
         <div className="slider-container">
+
             <Navbar/>
+            
             <div className="slider-inner">
 
               <div className="slider-inner-left-side">

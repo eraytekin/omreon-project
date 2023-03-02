@@ -67,6 +67,12 @@
     outline: none;
     border: none;
 }
+.subscribe-newsletter > input::placeholder{
+    font-weight: 400;
+    font-family: "Manrope";
+    size:16px;
+    color:rgba(0,0,0,.4);
+}
 /* left side button */
 .sign-up-newsletter{
     width: 136px;
@@ -132,7 +138,7 @@
     }
     
 }
-@media screen and (max-width:300px){
+@media screen and (max-width:325px){
     .subscribe-newsletter{
         width:200px;
         padding:10px;
@@ -142,5 +148,11 @@
     }
     .sign-up-newsletter{
         width:80px;
+    }
+    .slider-header{
+        font-size:34px;
+    }
+    .slider-content{
+        font-size: 16px;
     }
 }
