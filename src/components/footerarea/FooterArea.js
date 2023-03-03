@@ -8,38 +8,38 @@ function FooterArea() {
             <div className='upper-footer'>
                 <div className='upper-left-footer'>
                   <div className="upper-left-kolon kolon1">
-                    <ul>
+                    <ol>
                       <li>Çözüm ve Hizmetler</li>
                       <li>Yazılım Geliştirme</li>
                       <li>Outsourcing</li>
                       <li>Kalite ve Süreç Yönetimi</li>
                       <li>Danışmanlık</li>
                       <li>IoT Destekli Çözümler</li>
-                    </ul>
+                    </ol>
                   </div>
                   <div className="upper-left-kolon kolon2">
-                    <ul>
+                    <ol>
                       <li>Ürünler</li>
                       <li>Eğitim Yönetim Sistemi</li>
                       <li>İnsan Sermayesi Yönetim Sistemi</li>
                       <li>Müşteri İlişkileri Yönetim Sistemi</li>
                       <li>İçerik Yönetim Sistemi</li>
-                    </ul>
+                    </ol>
                   </div>
                   <div className="upper-left-kolon kolon3">
-                    <ul>
+                    <ol>
                       <li>Kurumsal</li>
                       <li>Hakkımızda</li>
                       <li>Belge ve Yetkinlikler</li>
                       <li>İş Ortakları</li>
-                    </ul>
+                    </ol>
                   </div>
                   <div className="upper-left-kolon kolon4">
-                    <ul>
+                    <ol>
                       <li>İletişim</li>
                       <li>Bilgi İstek Formu</li>
                       <li>Uzman Talep Formu</li>
-                    </ul>
+                    </ol>
                   </div>
                 </div>
                 <div className='upper-right-footer'></div>
