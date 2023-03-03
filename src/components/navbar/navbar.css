@@ -24,18 +24,18 @@
     align-items: center;
     /* background-color: green; */
 }
-ul{
+ul.menu{
     display: flex;
     justify-content: space-between;
     list-style-type: none;
 }
-ul > li{
+ul.menu > li{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right:2.5vw;
 }
-ul > li > a{
+ul.menu > li > a{
     color:#000000;
     font-size: 14px;
     text-decoration: none;

@@ -19,12 +19,15 @@
 .testandmanagement-inner-container > h1{
     font-size:48px;
     font-size:800;
+    line-height: 64px;
     font-family: "Manrope";
+    text-align: center;
 }
 .testandmanagement-inner-container > span {
     font-size:18px;
     font-weight: 400 !important;
     margin-bottom:50px;
+    line-height: 32px;
 }
 .testandmanagement-list-area{
     width:100%;
@@ -36,11 +39,13 @@
     font-family: "Manrope";
     font-weight: 700;
     font-size:14px;
+    line-height: 31px;
     /* background-color: pink; */
 }
 .testandmanagement-list-area div{
     /* background-color: green; */
     flex:1;
+    line-height: 21.5px;
 }
 
 @media screen and (max-width:1024px){
@@ -50,14 +55,21 @@
         padding:10px;
         box-sizing: border-box;
     }
+    .testandmanagement-list-area{
+        font-size: 14px;
+        line-height: 21.5px;
+    }
 }
 
 @media screen and (max-width:600px){
     .testandmanagement-list-area{
         flex-direction: column;
         height: 70%;
+        font-size: 18px;
+        line-height: 24.59px;
     }
     .testandmanagement-container{
         height: 600px;
     }
+    
 }

@@ -1,0 +1,60 @@
+.reachtous-container{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#000000;
+}
+.reachtous-container h1{
+    margin-bottom:25px;
+    font-size:42px;
+    line-height: 32px;
+}
+.reachtous-container span{
+    margin-bottom:25px;
+    font-size: 18px;
+    line-height: 32px;
+}
+.reachtous-container button{
+    width:204px;
+    height: 70px;
+    padding:25px, 40px, 25px, 40px;
+    border: none;
+    outline: none;
+    background: #F84646;
+    color: white;
+    border-radius: 8px;  
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 20px;       
+}
+
+@media screen and (max-width:600px){
+    .reachtous-container button{
+        width:124px;
+        height: 42px;
+        padding:25px, 40px, 25px, 40px;
+        border: none;
+        outline: none;
+        background: #F84646;
+        color: white;
+        border-radius: 8px;  
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;      
+    }
+    .reachtous-container span{
+        font-size: 14px;
+        line-height: 25px;          
+    }
+    .reachtous-container h1 {
+        font-size: 36px;
+        line-height: 32px;
+    }
+}

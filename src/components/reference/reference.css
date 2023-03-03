@@ -1,0 +1,124 @@
+.reference-container{
+    width: 100%;
+    height: 603px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F5F7;
+}
+.reference-inner-container{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: gray; */
+}
+.reference-inner-container-up{
+    width:100%;
+    height: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: red; */
+}
+.reference-inner-container-up > h1{
+    font-family: "Manrope";
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: 800;
+    color:#18191F;
+}
+.reference-inner-container-up > p{
+    font-family: "Manrope";
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 500;
+    color:#18191F;
+}
+.reference-inner-container-down{
+    width:100%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    /* background-color: green; */
+}
+.kolon-1,.kolon-2,.kolon-3,.kolon-4,.kolon-5{
+    width: 20%;
+    height: 100%;
+    margin:0px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+/* .kolon-1{
+    background-color: red;
+}
+.kolon-2{
+    background-color: gray;
+}
+.kolon-3{
+    background-color: orange;
+}
+.kolon-4{
+    background-color:pink;
+}
+.kolon-5{
+    background-color: yellow;
+} */
+.box-white{
+    margin:5px 0px;
+    width: 100%;
+    margin:5px 0px;
+    height: 96px;
+    box-shadow: 0px 30px 40px rgba(212, 217, 232, 0.2);
+    border-radius: 16px;
+    background: #FFFFFF;
+    /* figma tasarımındaki ölçüler beyaz kutular nezlinde sorun kötü görüntü verdiğinden belli noktalarda tasarıma uyulmamıştır. */
+}
+@media screen and (max-width:1024px){
+    .reference-inner-container{
+        width: 100%;
+    }
+    .box-white{
+        width: 120px;
+        height: 66px;
+    }
+}
+@media screen and (max-width:600px){
+    .reference-container{
+        height: auto;
+    }
+    .reference-inner-container{
+        width: 100%;
+    }
+    .reference-inner-container-down{
+        flex-direction: column;
+        width:100%;
+        height: auto;
+    }
+    .kolon-1,.kolon-2,.kolon-3,.kolon-4,.kolon-5{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .box-white{
+        width: 170px;
+        height: 96px;
+    }
+}
+@media screen and (max-width:450px){
+    .reference-inner-container-up > h1{
+        font-size:36px;
+        line-height: 41.5px;
+    }
+    .reference-inner-container-up > p{
+        font-size:14px;
+        line-height: 32px;
+    }
+}

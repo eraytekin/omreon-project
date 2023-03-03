@@ -27,7 +27,7 @@ function MainExplain() {
                     <div className='box'></div>
             </div>
             <div className="inner-content">
-                    <h1>Kalite ve Süreç Yönetimi</h1>
+                    <h1>Test Yönetimi ve Analiz</h1>
                     <p>
                         Deneyimli kadromuz; birçok farklı sektörden deneyimli, PMP® sertifikasına 
                         sahip, uzman proje yöneticilerinden oluşmaktadır. 

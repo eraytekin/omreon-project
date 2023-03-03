@@ -23,6 +23,7 @@ h1{
 .quality-period-inner-container > h1{
     font-family: "Manrope";
     font-size:36px;
+    line-height: 49.18px;
     font-weight: 800;
     color:#000000;
     /* background-color: pink; */
@@ -30,6 +31,7 @@ h1{
 .quality-period-inner-container > p{
     letter-spacing: 0.2px;
     font-size: 24px;
+    line-height: 39.5px;
     font-weight: 400;
     font-family: "Manrope";
     text-align: center;
@@ -38,5 +40,13 @@ h1{
 @media screen and (max-width:600px){
     .quality-period-container{
         height: 600px;
+    }
+    .quality-period-inner-container > h1{
+        size:24px;
+        line-height: 32.78px;
+    }
+    .quality-period-inner-container > p{
+        size:12px;
+        line-height: 22px;
     }
 }

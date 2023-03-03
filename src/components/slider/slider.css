@@ -34,6 +34,7 @@
 /* left side header */
 .slider-header{
     font-size:64px;
+    line-height: 82px;
     font-weight: 800;
     color: #000000;
 }
@@ -42,6 +43,7 @@
     font-weight: 400;
     font-size: 20px;
     letter-spacing: 0.2px;
+    line-height: 36px;
     color:#000000;
 }
 /* left side newsletter */
@@ -108,6 +110,18 @@
     .left-side-inner{
         margin-top: 0px;
     }
+    .slider-header{
+        font-size: 56px;
+        line-height: 73.5px;
+    }
+    /* left side content */
+    .slider-content{
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .subscribe-newsletter{
+        width:422px;
+    }
 }
 @media screen and (max-width:600px){
     .slider-container{
@@ -130,29 +144,19 @@
         overflow: hidden;
     }
     .subscribe-newsletter{
-        width:300px;
-        padding:15px;
+        width:335px;
+        height: 59.85;
+    }
+    .slider-header{
+        font-size: 42px;
+        line-height: 57.5px;
+    }
+    .slider-content{
+        font-size: 12px;
+        line-height: 23px;
     }
     .sign-up-newsletter{
         margin-top: 0px;
     }
     
-}
-@media screen and (max-width:325px){
-    .subscribe-newsletter{
-        width:200px;
-        padding:10px;
-    }
-    .subscribe-newsletter > input{
-        width:60px;
-    }
-    .sign-up-newsletter{
-        width:80px;
-    }
-    .slider-header{
-        font-size:34px;
-    }
-    .slider-content{
-        font-size: 16px;
-    }
 }

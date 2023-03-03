@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+.footer-container{
+    width: 100%;
+    height: 536px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F8464A;
+}
+.footer-inner-container{
+    width: 90%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: gray; */
+}
+/* üst kutu */
+.upper-footer{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    /* background-color: green; */
+}
+/* üst kutu sağ ve sol container */
+.upper-left-footer{
+    width:85%;
+    height: 100%;
+    display: flex;
+    /* background-color: orange; */
+}
+/* üst sol kutunun içerisindeki sütünlar */
+.kolon1{
+    /* background-color: red; */
+}
+.kolon2{
+    /* background-color: orange; */
+}
+.kolon3{
+    /* background-color: yellow; */
+}
+.kolon4{
+    /* background-color: purple; */
+}
+.upper-left-kolon{
+    width:25%;
+    height: 100%;
+}
+.upper-left-kolon > ul{
+    list-style-type: none;
+}
+.upper-left-kolon > ul > li:first-child{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    font-family: "Inter";
+}
+.upper-left-kolon > ul > li{
+    font-family: "Inter";
+    font-size: 16px;
+    line-height: 32px;
+    color: #E6E6E6;
+    margin-bottom:20px;
+}
+.upper-right-footer{
+    width:15%;
+    height: 100%;
+    /* background-color: gray; */
+}
+/* alt kutu */
+.lower-footer{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 10px;
+    box-sizing: border-box;
+    /* background-color: yellow; */
+}
+.lower-footer > section{
+    font-size: 16px;
+    line-height: 32px;
+    /* font-family:"Inter" */
+}
+@media screen and(max-width:1024px){
+    .upper-right-footer{
+        width: 0%;
+    }
+    .upper-left-footer{
+        width: 100%;
+    }
+}
