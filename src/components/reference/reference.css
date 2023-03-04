@@ -71,22 +71,32 @@
     background-color: yellow;
 } */
 .box-white{
-    margin:5px 0px;
     width: 100%;
     margin:5px 0px;
     height: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     box-shadow: 0px 30px 40px rgba(212, 217, 232, 0.2);
     border-radius: 16px;
     background: #FFFFFF;
     /* figma tasarımındaki ölçüler beyaz kutular nezlinde sorun kötü görüntü verdiğinden belli noktalarda tasarıma uyulmamıştır. */
 }
+.tumunu-gor{
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 600;
+    color:#F84646;
+
+}
+
 @media screen and (max-width:1024px){
     .reference-inner-container{
         width: 100%;
     }
     .box-white{
-        width: 115px;
-        height: 66px;
+        width: 170;
+        height: 96px;
     }
 }
 @media screen and (max-width:600px){

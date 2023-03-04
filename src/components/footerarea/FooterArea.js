@@ -1,5 +1,10 @@
 import React from 'react'
 import "./FooterArea.css"
+import facebookLogo from "../../photos/FacebookLogo.png";
+import instagramLogo from "../../photos/InstagramLogo.png";
+import linkedinLogo from "../../photos/LinkedinLogo.png";
+import mediumLogo from "../../photos/MediumLogo.png";
+import twitterLogo from "../../photos/TwitterLogo.png";
 
 function FooterArea() {
   return (
@@ -46,7 +51,13 @@ function FooterArea() {
             </div>
             <div className='lower-footer'>
                 <section>© Copyright 2010-2021 - Can Çevik</section>
-                <div>icons</div>
+                <div>
+                  <img src={mediumLogo} className="footer-social-media-icons"/>
+                  <img src={linkedinLogo} className="footer-social-media-icons"/>
+                  <img src={twitterLogo} className="footer-social-media-icons"/>
+                  <img src={instagramLogo} className="footer-social-media-icons"/>
+                  <img src={facebookLogo} className="footer-social-media-icons"/>
+                </div>
             </div>
         </div>
     </div>

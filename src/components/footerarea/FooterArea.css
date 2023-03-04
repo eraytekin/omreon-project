@@ -87,6 +87,9 @@
     line-height: 32px;
     color: #FFFFFF;
 }
+.footer-social-media-icons{
+    margin-right:13px;
+}
 @media screen and (max-width:1024px){
     .footer-container{
         height: auto;
