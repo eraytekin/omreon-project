@@ -1,11 +1,11 @@
 .mainexplain-container{
     width:100%;
-    height: 1000px;
-    background-color: gray;
+    height: 1200px;
+    /* background-color: gray; */
 }
 .mainexplain-inner-up, .mainexplain-inner-down{
     width: 100%;
-    height: 500px;
+    height: 600px;
     padding:25px;
     box-sizing: border-box;
     display: flex;
@@ -13,18 +13,18 @@
 }
 .mainexplain-inner-up{
     margin-top: 120px;
-    background-color: blue;
+    /* background-color: blue; */
 }
 .mainexplain-inner-down{
-    background-color: green;
     margin-bottom:120px;
+    /* background-color: green; */
 }
 .inner-content{
     width: 50%;
     height: 100%;
     padding: 12px;
     box-sizing: border-box;
-    background-color: pink;
+    /* background-color: pink; */
 }
 .inner-content h1{
     font-weight: 700;
@@ -59,13 +59,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: yellow;
+    overflow: hidden;
+    /* background-color: yellow; */
 }
-.box{
-    width: 300px;
-    height: 300px;
-    background-color: #F84646;
+.inner-photo-settings{
+        width:504px;
+        height: 480px;
 }
+
 @media screen and (max-width:1024px){
     .inner-content h1{
         font-size: 58px;
@@ -81,10 +82,15 @@
     .mainexplain-inner-up, .mainexplain-inner-down{
         height: auto;
     }
+    .inner-photo-settings{
+        width:424px;
+        height: 404px;
+    }
 }
 @media screen and (max-width:600px){
     .inner-content, .inner-photo{
         width: 100%;
+        height: auto;
     }
     .mainexplain-inner-up, .mainexplain-inner-down{
         width:100%;
@@ -109,6 +115,10 @@
     .inner-content button{
         width: 338px;
         height: 48px;
+    }
+    .inner-photo-settings{
+        width:335px;
+        height: 312px;
     }
 }
 @media screen and (max-width:300px){
