@@ -11,7 +11,6 @@
     width: 70%;
     display: flex;
     flex-direction: column;
-    /* background-color: gray; */
 }
 .reference-inner-container-up{
     width:100%;
@@ -20,7 +19,6 @@
     justify-content: flex-end;
     align-items: center;
     flex-direction: column;
-    /* background-color: red; */
 }
 .reference-inner-container-up > h1{
     font-family: "Manrope";
@@ -41,8 +39,6 @@
     height: 70%;
     display: flex;
     flex-direction: row;
-    
-    /* background-color: green; */
 }
 .kolon-1,.kolon-2,.kolon-3,.kolon-4,.kolon-5{
     width: 20%;
@@ -55,21 +51,6 @@
     align-items: center;
     
 }
-/* .kolon-1{
-    background-color: red;
-}
-.kolon-2{
-    background-color: gray;
-}
-.kolon-3{
-    background-color: orange;
-}
-.kolon-4{
-    background-color:pink;
-}
-.kolon-5{
-    background-color: yellow;
-} */
 .box-white{
     width: 100%;
     margin:5px 0px;
@@ -87,7 +68,6 @@
     line-height: 32px;
     font-weight: 600;
     color:#F84646;
-
 }
 
 @media screen and (max-width:1024px){

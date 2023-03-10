@@ -8,7 +8,6 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: gray; */
 }
 .quality-period-inner-container{
     width: 75%;
@@ -18,7 +17,6 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* background-color: pink; */
 }
 .quality-period-inner-container > h1{
     font-family: "Manrope";
@@ -26,7 +24,6 @@ h1{
     line-height: 49.18px;
     font-weight: 800;
     color:#000000;
-    /* background-color: pink; */
 }
 .quality-period-inner-container > p{
     letter-spacing: 0.2px;
@@ -35,7 +32,6 @@ h1{
     font-weight: 400;
     font-family: "Manrope";
     text-align: center;
-    /* background-color: pink; */
 }
 @media screen and (max-width:600px){
     .quality-period-container{

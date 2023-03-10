@@ -14,7 +14,6 @@
     align-items: center;
     flex-direction: column;
     color:#FFFFFF;
-    /* background-color: gray; */
 }
 .testandmanagement-inner-container > h1{
     font-size:48px;
@@ -40,10 +39,8 @@
     font-weight: 700;
     font-size:14px;
     line-height: 31px;
-    /* background-color: pink; */
 }
 .testandmanagement-list-area div{
-    /* background-color: green; */
     flex:1;
     line-height: 21.5px;
 }

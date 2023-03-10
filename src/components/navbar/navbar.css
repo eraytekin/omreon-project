@@ -3,7 +3,6 @@
     height: 80px;
     display:flex;
     flex-direction: row;
-    /* background-color: red; */
 }
 .navbar-left-side{
     width: 30%;
@@ -11,7 +10,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: yellow; */
 }
 .hamburger-button{
     display: none;
@@ -22,7 +20,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: green; */
 }
 ul{
     display: flex;

@@ -12,7 +12,6 @@
     height: calc(754px - 80px);
     display: flex;
     flex-direction: row;
-    /* background-color: blue; */
 }
 .slider-inner-left-side{
     width:80%;
@@ -20,7 +19,6 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    /* background-color: yellow; */
 }
 /* left side container içerisinde bulunan inner container */
 .left-side-inner{
@@ -29,7 +27,6 @@
     display: flex;
     flex-direction: column;
     margin-top:120px;
-    /* background-color: gray; */
 }
 /* left side header */
 .slider-header{
@@ -96,7 +93,6 @@
 .slider-inner-right-side{
     width:20%;
     height: 100%;
-    /* background-color: pink; */
 }
 
 @media screen and (max-width:1024px){
@@ -125,10 +121,8 @@
 }
 @media screen and (max-width:600px){
     .slider-container{
-        /* opacity: .5; */ /*opactiy durumunu hallet */
         background-image: url("../../photos/background2.png");
-        background-position: left bottom ;
- 
+        background-position: 70% 50%;
     }
     .slider-inner-left-side{
         width:100%;

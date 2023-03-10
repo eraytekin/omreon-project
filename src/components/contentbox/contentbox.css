@@ -4,7 +4,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: gray; */
 }
 .content-box-inner-container{
     width:85%;
@@ -13,7 +12,6 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    /* background-color: pink; */
 }
 .content-box{
     width:32%;
@@ -26,7 +24,6 @@
     padding: 25px;
     box-sizing: border-box;
     color:#000000;
-    /* background-color: red; */
 }
 .content-box > h3{
     text-align: center;
