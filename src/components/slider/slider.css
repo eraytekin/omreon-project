@@ -126,8 +126,9 @@
 @media screen and (max-width:600px){
     .slider-container{
         /* opacity: .5; */ /*opactiy durumunu hallet */
-        background-image: url("../../photos/background.png");
-        background-position: right;
+        background-image: url("../../photos/background2.png");
+        background-position: left bottom ;
+ 
     }
     .slider-inner-left-side{
         width:100%;
